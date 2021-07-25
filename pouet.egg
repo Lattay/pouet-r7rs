@@ -1,0 +1,11 @@
+((license "MIT")
+ (category misc)
+ (dependencies r7rs)
+ (author "Théo Cavignac")
+ (version "1.0.0")
+ (synopsis "Say pouet as many times as you want")
+ (components
+   (extension pouet
+              (csc-options "-R" "r7rs" "-X" "r7rs")
+              (source "pouet.sld")
+              (modules pouet))))
